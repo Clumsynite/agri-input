@@ -1,8 +1,34 @@
-# Getting Started with Create React App
+# agri-input
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## General Instructions
+
+- Your project must be written in accordance with the following Norm.
+  - Write clean and precise code.
+  - Keep it as modular and component based as possible.
+  - No function can be more than 40 lines
+  - All the declarations must be on the top of each function followed by an empty line
+  - Use functional components only (No class based).
+  - Use react hooks.
+  - The UI and UX experience should be seamless.
+  - Can use components from the Ant.design framework [(https://ant.design/)](https://ant.design/) or design your own.
+
+## Task
+
+Create a simple react project using any tool that suits you and design the screen that is pasted below.
+
+- Create different files/components for all side navigation tabs
+- Create different files/components for Pending. Executing, executed and completed tab (they appear in Agri-Input Purchase Requests side nav tab only).
+- Ignore the numbers in the UI design, they are for reference.
+- Design a side navigation bar like shown below.(apart from clicking on Agri-Input Purchase Requests just show the **name** of the navigation tab as screen content)
+- Apart from the Executing tab (just keep the name of that tab **name** as the screen content)
+- For Agri-Input Purchase Requests Nav tab and executing tab it should be exactly the same as below
+  - Clicking on any row near 6, should expand and show details and clicking again hide it.
+  - Clicking on 13, should open a modal showing details of that row (design your own modal as you like).
+  - Clicking on 15 should download the details in csv format.
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 

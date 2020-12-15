@@ -26,6 +26,10 @@ Create a simple react project using any tool that suits you and design the scree
   - Clicking on 13, should open a modal showing details of that row (design your own modal as you like).
   - Clicking on 15 should download the details in csv format.
 
+## Expected Result
+
+![Expected](./sample.png)
+
 ## Available Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

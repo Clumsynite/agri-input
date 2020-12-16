@@ -1,13 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .sidebar {
-  width: 13vw;
+  width: 15vw;
   height: 100vh;
   background-color: #e6e6e6;
 }
@@ -25,7 +19,7 @@ body {
   text-decoration: none;
   color: white;
   border-bottom: 1px solid whitesmoke;
-  margin: 0 20px;
+  margin: 0 15px;
   padding: 10px 0;
   transition: 0.5s ease-in-out;
 }
@@ -41,10 +35,10 @@ body {
 }
 .router-link-bottom {
   position: absolute;
-  bottom: 9%;
+  bottom: 5%;
   height: 80px;
   overflow-wrap: break-word;
-  width: 10vw;
+  width: 12vw;
   border-bottom: none;
   border-top: 1px solid white;
 }

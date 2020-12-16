@@ -1,0 +1,20 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  height: 100vh;
+}
+.content{
+  height: 100vh;
+  width: 85vw;
+}
+.dummy-content {
+  width: max-content;
+}
+.dummy-content > h2{
+  margin: 0;
+  padding: 20px;
+}

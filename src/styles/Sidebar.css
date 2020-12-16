@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+.sidebar {
+  width: 13vw;
+  height: 100vh;
+  background-color: #e6e6e6;
+}
+.sidebar-content {
+  height: 90vh;
+  width: 100%;
+  background-color: #595959;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+.route-link {
+  font-family: "Lora", serif;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid whitesmoke;
+  margin: 0 20px;
+  padding: 10px 0;
+  transition: 0.5s ease-in-out;
+}
+.route-link:hover {
+  color: bisque;
+}
+.router-link-active {
+  color: aquamarine;
+}
+.router-link-active:hover {
+  color: aquamarine;
+  text-decoration: underline;
+}
+.router-link-bottom {
+  position: absolute;
+  bottom: 9%;
+  height: 80px;
+  overflow-wrap: break-word;
+  width: 10vw;
+  border-bottom: none;
+  border-top: 1px solid white;
+}

@@ -1,0 +1,34 @@
+.purchase-content {
+  padding: 10px;
+}
+.content-heading {
+  margin: 0;
+  font-size: large;
+  font-weight: bolder;
+}
+.purchase-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  margin-top: 10px;
+}
+.purchase-tab {
+  padding: 25px;
+  padding-bottom: 4px;
+  margin: 0 4px;
+  font-size: 18px;
+  background-color: #595959;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  list-style: none;
+}
+.purchase-tab:hover {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.tab-selected {
+  background-color: black;
+}

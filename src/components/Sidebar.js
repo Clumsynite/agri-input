@@ -34,7 +34,7 @@ const Sidebar = () => {
           Supplier Master Management
         </NavLink>
         <NavLink
-          to="/purchase-req"
+          to="/purchase"
           activeClassName="router-link-active"
           className="route-link"
         >

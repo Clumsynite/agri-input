@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .sidebar {
   width: 13vw;
   height: 100vh;

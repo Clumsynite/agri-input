@@ -30,8 +30,7 @@
   color: aquamarine;
 }
 .router-link-active:hover {
-  color: aquamarine;
-  text-decoration: underline;
+  color: #70aa97;
 }
 .router-link-bottom {
   position: absolute;

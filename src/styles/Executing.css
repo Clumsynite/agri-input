@@ -1,0 +1,38 @@
+.dummy-button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px 0;
+}
+.dummy-button {
+  padding: 6px 30px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: "Lora", serif;
+  margin: 0 10px;
+  background-color: #595959;
+  border: 2px solid #595959;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s ease-in-out;
+}
+.dummy-button:hover {
+  border: 2px solid black;
+}
+.dummy-button:active {
+  background-color: white;
+  color: #595959;
+}
+.dummy-button-disabled {
+  background-color: #d0cece;
+  border: 1px solid #d0cece;
+  cursor: not-allowed;
+}
+.dummy-button-disabled:hover {
+  border: 1px solid #d0cece;
+}
+.dummy-button-disabled:active {
+  color: white;
+  background-color: #d0cece;
+}

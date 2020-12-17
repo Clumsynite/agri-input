@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
 .sidebar {
-  width: 15vw;
+  width: 13vw;
   height: 100vh;
   background-color: #e6e6e6;
 }
@@ -28,6 +28,7 @@
 }
 .router-link-active {
   color: aquamarine;
+  padding: 10px 5px;
 }
 .router-link-active:hover {
   color: #70aa97;
@@ -37,7 +38,7 @@
   bottom: 5%;
   height: 80px;
   overflow-wrap: break-word;
-  width: 12vw;
+  width: 10vw;
   border-bottom: none;
   border-top: 1px solid white;
 }

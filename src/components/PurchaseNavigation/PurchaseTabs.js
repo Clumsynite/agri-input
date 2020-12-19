@@ -7,13 +7,9 @@ import Completed from "./Completed";
 
 const PurchaseNav = () => {
   return (
-    <Tabs>
+    <Tabs defaultIndex={1}>
       <TabList className="purchase-tabs">
-        <Tab
-          defaultChecked={true}
-          selectedClassName="tab-selected"
-          className="purchase-tab"
-        >
+        <Tab selectedClassName="tab-selected" className="purchase-tab">
           Pending
         </Tab>
         <Tab selectedClassName="tab-selected" className="purchase-tab">

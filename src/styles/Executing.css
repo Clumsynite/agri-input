@@ -47,12 +47,18 @@
   width: 100%;
 }
 .accordion-button {
-  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 80%;
   background-color: #afabab;
   font-family: "Playfair Display", serif;
-  padding: 20px;
+  padding: 10px 15px;
   outline: none;
   margin: 5px 0;
+  font-weight: bold;
   transition: 0.5s ease-in-out;
 }
 .accordion-button:before {
@@ -68,6 +74,47 @@
 .accordion-button[aria-expanded="true"]::before,
 .accordion-button[aria-selected="true"]::before {
   transform: rotate(45deg);
+}
+.accordion-button-divider {
+  font-size: 30px;
+  color: white;
+  padding: 0 10px;
+  font-weight: bold;
+}
+.accordion-button-key {
+  font-size: 18px;
+}
+.accordion-button-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.user-avatar {
+  border: 1px solid #afabab;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+.user-avatar:hover {
+  border: 1px solid gray;
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+}
+.accordion-button-csv {
+  padding: 5px;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.accordion-button-csv:hover {
+  box-shadow: 1px 2px 10px 2px gray;
 }
 .accordion-panel {
   padding: 10px 0;
@@ -96,7 +143,7 @@
   padding: 8px;
 }
 .products-table-body tr {
-  background-color: #CBCBCB;
+  background-color: #cbcbcb;
   transition: 0.5s ease-in-out;
 }
 .products-table-body tr:nth-child(even) {

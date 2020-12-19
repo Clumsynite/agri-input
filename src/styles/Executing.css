@@ -41,6 +41,17 @@
   background-color: #d0cece;
 }
 
+/* Orders Heading */
+
+.orders-heading {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: space-around;
+}
+
 /* Order List - Accordion */
 
 .accordion-item {
@@ -97,7 +108,7 @@
   transition: 0.5s ease-in-out;
 }
 .user-avatar:hover {
-  border: 1px solid gray;
+  box-shadow: 1px 2px 10px 2px gray;
 }
 .user-details {
   display: flex;
@@ -107,14 +118,14 @@
 }
 .accordion-button-csv {
   padding: 5px;
-  transition: 0.5s ease-in-out;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  transition: 0.5s ease-in-out;
 }
 .accordion-button-csv:hover {
   box-shadow: 1px 2px 10px 2px gray;
+  border-radius: 4px;
 }
 .accordion-panel {
   padding: 10px 0;

@@ -1,10 +1,12 @@
+import OrderList from "../Templates/OrderList";
 import "../../styles/Executing.css";
+import orders from "../../orders";
 
 const Executing = () => {
   return (
     <div className="executing">
       <DummyButtonGroup />
-
+      <OrderList orders={orders} />
     </div>
   );
 };

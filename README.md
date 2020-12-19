@@ -30,6 +30,14 @@ Create a simple react project using any tool that suits you and design the scree
 
 ![Expected](./sample.png)
 
+## Actual Result
+
+![Actual](./result.png)
+
+## Author
+
+Rishabh Jitendra Pathak
+
 ## Available Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

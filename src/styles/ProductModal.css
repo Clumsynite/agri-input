@@ -1,0 +1,17 @@
+.product-modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: larger;
+  height: 100%;
+}
+.product-image {
+  width: auto;
+  height: 20vh;
+}
+.product-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+}

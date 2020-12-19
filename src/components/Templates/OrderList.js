@@ -9,6 +9,7 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
+import { json2csvAsync } from "json-2-csv";
 import ProductTable from "../Templates/ProductTable";
 
 const OrderList = (props) => {
@@ -18,9 +19,25 @@ const OrderList = (props) => {
     return "RFQList_" + key.split("Y")[1];
   };
 
-  const orderList = orders.map((order) => {
+  const downloadAsCSV = async (array, filename) => {
+    try {
+      const csv = await json2csvAsync(array);
+      const element = document.createElement("a");
+      const file = new Blob([csv], {
+        type: "text/csv",
+      });
+      element.href = URL.createObjectURL(file);
+      element.download = `${filename}.csv`;
+      document.body.appendChild(element);
+      element.click();
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  const orderList = orders.map((order, index) => {
     return (
-      <AccordionItem className="accordion-item" key={order.key}>
+      <AccordionItem className="accordion-item" key={order.key} uuid={index}>
         <AccordionItemHeading>
           <AccordionItemButton className="accordion-button">
             <div className="accordion-button-key">{order.key}</div>
@@ -40,7 +57,13 @@ const OrderList = (props) => {
               </div>
             </div>
             <span className="accordion-button-divider">|</span>
-            <div className="accordion-button-csv">
+            <div
+              className="accordion-button-csv"
+              onClick={(e) => {
+                e.stopPropagation();
+                downloadAsCSV(order.products, downloadName(order.key));
+              }}
+            >
               <InlineIcon icon={fileTypeExcel} width={40} height={40} />
               <span style={{ padding: "0 5px" }}>
                 {downloadName(order.key)}
@@ -60,9 +83,10 @@ const OrderList = (props) => {
       style={{
         width: "82%",
         border: "none",
-        padding: 20,
-        transition: "0.5s ease-in-out",
+        padding: 15,
       }}
+      allowZeroExpanded={true}
+      preExpanded={[0]}
     >
       {orderList}
     </Accordion>

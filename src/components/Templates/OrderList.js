@@ -42,7 +42,9 @@ const OrderList = (props) => {
             <span className="accordion-button-divider">|</span>
             <div className="accordion-button-csv">
               <InlineIcon icon={fileTypeExcel} width={40} height={40} />
-              {downloadName(order.key)}
+              <span style={{ padding: "0 5px" }}>
+                {downloadName(order.key)}
+              </span>
               <InlineIcon icon={downloadIcon} width={40} height={40} />
             </div>
           </AccordionItemButton>

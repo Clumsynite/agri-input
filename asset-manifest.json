@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/agri-input/static/css/main.842c7cfb.chunk.css",
+    "main.js": "/agri-input/static/js/main.cce9226a.chunk.js",
+    "main.js.map": "/agri-input/static/js/main.cce9226a.chunk.js.map",
+    "runtime-main.js": "/agri-input/static/js/runtime-main.f55ebc90.js",
+    "runtime-main.js.map": "/agri-input/static/js/runtime-main.f55ebc90.js.map",
+    "static/css/2.60c50db3.chunk.css": "/agri-input/static/css/2.60c50db3.chunk.css",
+    "static/js/2.0eae39a9.chunk.js": "/agri-input/static/js/2.0eae39a9.chunk.js",
+    "static/js/2.0eae39a9.chunk.js.map": "/agri-input/static/js/2.0eae39a9.chunk.js.map",
+    "index.html": "/agri-input/index.html",
+    "static/css/2.60c50db3.chunk.css.map": "/agri-input/static/css/2.60c50db3.chunk.css.map",
+    "static/css/main.842c7cfb.chunk.css.map": "/agri-input/static/css/main.842c7cfb.chunk.css.map",
+    "static/js/2.0eae39a9.chunk.js.LICENSE.txt": "/agri-input/static/js/2.0eae39a9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f55ebc90.js",
+    "static/css/2.60c50db3.chunk.css",
+    "static/js/2.0eae39a9.chunk.js",
+    "static/css/main.842c7cfb.chunk.css",
+    "static/js/main.cce9226a.chunk.js"
+  ]
+}

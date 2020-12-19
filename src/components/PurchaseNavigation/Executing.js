@@ -6,6 +6,12 @@ const Executing = () => {
   return (
     <div className="executing">
       <DummyButtonGroup />
+      <div style={{ borderBottom: "1px solid grey", marginTop: "25px" }}>
+        <div className="orders-heading">
+          <div>Executing Agri-Input Orders</div>
+          <div>Batched By</div>
+        </div>
+      </div>
       <OrderList orders={orders} />
     </div>
   );
